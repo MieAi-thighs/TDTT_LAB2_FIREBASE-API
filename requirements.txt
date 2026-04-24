@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+firebase-admin
+requests
+pydantic
+python-dotenv
+google-generativeai
+toml

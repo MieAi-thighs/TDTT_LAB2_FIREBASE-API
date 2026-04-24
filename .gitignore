@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+env/
+venv/
+.venv/
+*.json
+
+# Next.js / Node.js
+node_modules/
+.next/
+out/
+build/
+.DS_Store
