@@ -37,9 +37,9 @@ def get_game_response(user_message: str, history: list = None) -> str:
         # BƯỚC ĐỘT PHÁ: Phân tích câu hỏi và tạo ra danh sách các truy vấn tìm kiếm bằng tiếng Anh (Query Decomposition)
         trans_prompt = f"""Analyze this gaming query and break it down into 1 to 2 short, precise English search queries to maximize search accuracy. 
             Include '2026' or 'latest' in the queries.
-Output ONLY a valid JSON array of strings, without any markdown formatting or extra text.
-Example: ["game name latest version news 2026", "game name storage size pc mobile 2026"]
-Query: '{base_query}'"""
+            Output ONLY a valid JSON array of strings, without any markdown formatting or extra text.
+            Example: ["game name latest version news 2026", "game name storage size pc mobile 2026"]
+            Query: '{base_query}'"""
 
         trans_res = groq_client.chat.completions.create(
             messages=[{"role": "user", "content": trans_prompt}],

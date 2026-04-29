@@ -9,7 +9,6 @@ const firebaseConfig = {
   storageBucket: "test-firebase-3e2c7.firebasestorage.app",
   messagingSenderId: "848751893244",
   appId: "1:848751893244:web:fbdd4d9b8af90a5d4a9579"
-
 };
 
 
