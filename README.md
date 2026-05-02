@@ -1,7 +1,5 @@
 # Game Companion Chatbot - Lab 2
 
-Đây là dự án thực hành Lab 2: API & Firebase. Dự án áp dụng kiến trúc tách biệt Frontend (Next.js) và Backend (FastAPI).
-
 ## Thông tin sinh viên
 
 | Thông tin     |                        |
@@ -10,6 +8,7 @@
 | **MSSV**      | 24120032               |
 | **Lớp**       | 24CTT5                 |
 
+Đây là dự án thực hành Lab 2: API & Firebase. Dự án áp dụng kiến trúc tách biệt Frontend (Next.js) và Backend (FastAPI).
 
 **Feature chính của ứng dụng:**
 * **Xác thực:** Đăng nhập/Đăng xuất bằng Firebase Authentication (ID Token).
