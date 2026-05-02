@@ -2,6 +2,15 @@
 
 Đây là dự án thực hành Lab 2: API & Firebase. Dự án áp dụng kiến trúc tách biệt Frontend (Next.js) và Backend (FastAPI).
 
+## Thông tin sinh viên
+
+| Thông tin     |                        |
+| ------------- | ---------------------- |
+| **Họ và tên** | Nguyễn Phan Khánh Đăng |
+| **MSSV**      | 24120032               |
+| **Lớp**       | 24CTT5                 |
+
+
 **Feature chính của ứng dụng:**
 * **Xác thực:** Đăng nhập/Đăng xuất bằng Firebase Authentication (ID Token).
 * **Chatbot AI RAG:** Tích hợp mô hình ngôn ngữ lớn kết hợp Tavily API để tìm kiếm và trả lời các thông tin mới nhất về Game.
@@ -35,6 +44,7 @@
 2. Cài đặt các thư viện cần thiết:
    ```bash
    pip install -r requirements.txt
+   ```
 3. Đảm bảo bạn đã đặt file `firebase-key.json` vào thư mục `backend/` và thêm các API Key (Groq, Tavily) vào file `.streamlit/secrets.toml`.
 
 **Thiết lập Frontend (Next.js):**
@@ -42,6 +52,7 @@
 2. Cài đặt các gói Node.js:
    ```bash
    npm install
+   ```
 3. Đảm bảo file `.env.local` được cấu hình đúng với `NEXT_PUBLIC_FIREBASE_API_KEY`, `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN`, và `NEXT_PUBLIC_FIREBASE_PROJECT_ID`.
 ## 2. Hướng dẫn chạy ứng dụng
 > **Lưu ý quan trọng:** Backend phải được khởi động trước để Frontend có thể gửi request.
@@ -65,3 +76,4 @@ Giao diện ứng dụng sẽ có thể truy cập tại: http://localhost:3000
 ***Lưu ý: Để chatbot trích xuất số liệu chuẩn xác nhất (như dung lượng, phiên bản game), khuyến khích nhập câu hỏi bằng Tiếng Anh hoặc sử dụng từ khóa Tiếng Anh.***
 
 ## 4. Video DEMO
+**Link Video**: [![Xem Video Demo](https://img.youtube.com/vi/CdRiQBq7Znw/0.jpg)](https://youtu.be/CdRiQBq7Znw)
